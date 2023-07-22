@@ -25,7 +25,7 @@ if ( __name__ == '__main__' ):
 	  return math.cos(x)
   
   x0 = np.pi/4 #initial guess
-  Tol = 1.e-100 #approximation solution accurancy
+  Tol = 1.e-5 #approximation solution accurancy
   
   data=[]
   data=eqn_Solver(eqn,x0,Tol)
